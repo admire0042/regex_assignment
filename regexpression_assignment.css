@@ -1,0 +1,64 @@
+
+body{
+    background-color:white;
+}
+.overlay{
+    background-color: white;
+    width:700px;
+     margin-top:30px;
+     padding:0;
+     color:black;
+}
+.cont2{
+    color:white;
+}
+
+input{
+    width:200%;
+    display:block;
+    background-color: lightgray;
+    text-align:center;
+
+}
+
+#box1{
+    
+    height:50px;
+    background-color:black;
+    color:white;
+}
+
+
+
+input.valid{
+    border-color: green;
+}
+
+input.invalid{
+    border-color:red;
+}    
+
+input + p{
+    font-family : arial;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: red;
+    opacity:0;
+    height:0;
+}
+
+input.invalid + p{
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+
+
+
+
+
+
+
